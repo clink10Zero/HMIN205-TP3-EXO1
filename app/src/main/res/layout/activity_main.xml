@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nom" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/surnameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prenom" />
+
+    <EditText
+        android:id="@+id/surnameEditText"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"/>
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+    <Button
+        android:id="@+id/validation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/validate_button"/>
+
+</LinearLayout>
